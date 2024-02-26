@@ -97,6 +97,7 @@ export const appRouter = router({
             {
               price: PLANS.find(
                 (plan) => plan.name === 'Pro'
+                //change plan type
               )?.price.priceIds.test,
               quantity: 1,
             },
